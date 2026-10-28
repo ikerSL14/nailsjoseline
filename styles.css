@@ -27,6 +27,16 @@ section{padding:8rem 6vw}
 .nav.scrolled{background:rgba(251,246,241,.82);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(184,146,90,.2);padding:.5rem 6vw}
 .nav__logo{display:flex;align-items:center;gap:.6rem}
 .nav__logo img{width:34px;height:34px;object-fit:contain;transform:scale(1.5)}
+.nav__logo img{
+  background:var(--white);
+  border-radius:50%;
+  padding:3px;
+
+  border:1px solid rgba(184,146,90,.12);
+
+  box-shadow:
+    0 8px 22px -15px rgba(74,50,54,.35);
+}
 .nav__logo span{margin-left: 0.7rem; font-family:var(--script);font-size:1.8rem;color:var(--deep)}
 .nav__links{
   display:flex;
